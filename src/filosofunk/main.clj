@@ -5,7 +5,7 @@
 (require '[clj-http.client :as client])
 (require '[cheshire.core :refer :all])
 
-(def token "token")
+(def token :token)
 
 (defn format-message
   [v]
